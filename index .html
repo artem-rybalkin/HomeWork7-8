@@ -9,6 +9,10 @@
 	<link href="css/style_w320.css" rel="stylesheet" type="text/css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+    	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+	<![endif]-->
+	<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<title>Document</title>
 </head>
 <body>
@@ -20,37 +24,37 @@
 						<span class="logo__pingbull">PINGBULL</span><span class="logo__er">ER</span>
 					
 					</div>
-					<nav>
-						<ul class="menu">
-							<li class="menu__list"><a href="" class="menu__link">HOME</a></li>
-							<li class="menu__list"><a href="" class="menu__link">ABOUT</a></li>
-							<li class="menu__list"><a href="" class="menu__link">BLOG</a></li>
-							<li class="menu__list"><a href="" class="menu__link">PRODUCTS</a></li>
-							<li class="menu__list"><a href="" class="menu__link">LOREM IPSUM</a></li>
-							<li class="menu__list"><a href="" class="menu__link">DOLOR SIT AMET</a></li>
-						</ul>
-					</nav>
 					<nav class="drop">
 						<ul class="menu">
-							<li class="menu__top">
-								<a href="" class="menu__link active">HOME</a>
-								<ul class="menu__inside">
-									<li class="menu__list"><a href="" class="menu__link">ABOUT</a></li>
-									<li class="menu__list"><a href="" class="menu__link">BLOG</a></li>
-									<li class="menu__list"><a href="" class="menu__link">PRODUCTS</a></li>
-									<li class="menu__list"><a href="" class="menu__link">LOREM IPSUM</a></li>
-									<li class="menu__list"><a href="" class="menu__link">DOLOR SIT AMET</a></li>
-								</ul>
+							<li class="menu__list curent">
+								<a href="" class="menu__link">HOME</a>
+							</li>
+							<li class="menu__list">
+								<a href="" class="menu__link">ABOUT</a>
+							</li>
+							<li class="menu__list">
+								<a href="" class="menu__link">BLOG</a>
+							</li>
+							<li class="menu__list">
+								<a href="" class="menu__link">PRODUCTS</a>
+							</li>
+							<li class="menu__list">
+								<a href="" class="menu__link">LOREM IPSUM</a>
+							</li>
+							<li class="menu__list">
+								<a href="" class="menu__link">DOLOR SIT AMET</a>
 							</li>
 						</ul>
 					</nav>
-				</div>
+			</div>
 			</header>
 		</div>
 		<div class="img_slider">
 			<div class="wraper">
 				<div class="slider">
+
 					<div class="slider__text">
+					<figure class="slider__larrow hide960"><img src="img/left_arrow.png" alt=""></figure>
 						<span class="slider__span">Lorem Ipsum Dolor</span>
 						<p class="slider__p1">IT WILL MAKE ALL OF YOUR DREAMS COME  TRUE</p>
 						<div class="slider__p23">
@@ -59,6 +63,7 @@
 						</div>
 						
 					</div>
+					<figure class="slider__rarrow hide960" ><img src="img/right_arrow.png" alt=""></figure>
 					<div class="slider__img">
 						<figure ><img src="img/iphone.png" alt="iphone" ></figure>
 						
@@ -74,7 +79,15 @@
 
 		</div>
 		<div class="wraper">
-			<div class="nav_dots"><img src="img/Navigation copy 3.png" alt=""></div>
+			<div class="nav_dots">
+				<ul class="dots">
+					<li class="dots__list dot1"><a href="" class="dots__link"></a></li>
+					<li class="dots__list dot2"><a href="" class="dots__link"></a></li>
+					<li class="dots__list dot3"><a href="" class="dots__link"></a></li>
+					<li class="dots__list dot4"><a href="" class="dots__link"></a></li>
+				</ul>
+				
+			</div>
 		</div>
 			
 		
@@ -248,8 +261,8 @@
 			
 		
 			<div class="wraper">
-				<nav class="lower">
-						<ul class="menu">
+				<nav class="footer_menu">
+						<ul class="menu lower">
 							<li class="menu__list"><a href="" class="menu__link">HOME</a></li>
 							<li class="menu__list"><a href="" class="menu__link">ABOUT</a></li>
 							<li class="menu__list"><a href="" class="menu__link">BLOG</a></li>

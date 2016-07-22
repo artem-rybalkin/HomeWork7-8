@@ -9,9 +9,7 @@
 	.logo {
 		padding-left: 26%;
 	}
-	.drop {
-		padding-left: 12.5%;
-	}
+	
 	.hiden {
 		display: none;
 	}
@@ -25,9 +23,16 @@
 		width: 202px;
 	}
 	.slider__text {
-		width: 64%;
-		padding-left: 65px;
+		width: 89%;
+		padding-left: 0;
 		padding-top: 92px;
+	}
+	.slider__span {
+    padding-left: 46px;
+	}
+	.slider__p1 {
+    padding-left: 47px;
+    padding-top: 4px;
 	}
 	.nav_dots {
 		margin-top: 0px;
@@ -152,7 +157,7 @@
 		left: 29%;
 		padding-right: 0;
 	}
-	.lower .menu {
+	.footer_menu {
 		display: none;
 	}
 }

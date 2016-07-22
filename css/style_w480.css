@@ -1,13 +1,77 @@
 @media screen and ( max-width:767px) {
 	.wraper {
-		width: 481px;
+		width: 480px;
 	}
 	.img_header {
 		display: block;
 		height: 548px;
 	}
-	.menu {
+	/*drop menu*/
+	
+	.menu:hover .menu__list {
+		display: inline-block;
+		float: initial;
+		width: 243px;
+		padding-left: 0;
+
+		border: 1px solid #051116;
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+		background-color: rgba(54, 41, 62, 0.9);
+		text-align: center;
+	}
+	
+	.drop .menu {
+		padding-top: 0;
+		margin: auto auto;
+		top: 0;
+		left: 0;
+		float: initial;
+		height: 45px;
+		width: 244px;
+		list-style-type: none;
+	}
+	.drop .menu__list:last-child {
+		border: 1px solid #051116;
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+		background-color: rgba(54, 41, 62, 0.9);
+		border-radius:  0 0 8px 8px;
+	}
+	.menu__list {
 		display: none;
+	}
+	.drop .menu__list .menu__link:hover {
+		background-color: rgba(54, 41, 62, 0.9);
+	}
+	.menu__link {
+		height: 38px;
+		display: block;
+		text-align: center;
+	}
+	.curent {
+		margin: 0 auto;
+		width: 243px;
+		display: block;
+		text-align: center;
+		text-decoration: underline;
+		padding-left: 0;
+	}
+	.curent .menu__link {
+		padding: 9px 10px 4px;
+	}
+	.menu .curent .menu__link:hover {
+		
+		border-radius: 8px 8px 0 0;
+	}
+	.drop .menu__list:first-child {
+		border-radius: 8px 8px 0 0;
+		height: 50px;
+		padding-left: 0;
+		
+	}
+	.drop .menu__list {
+		height: 39px;
+		width: 243px;
+		padding-left: 0;
 	}
 	.logo {
 		float: inherit;
@@ -15,76 +79,11 @@
 	}
 	/*drop menu*/
 	.drop {
-		padding-top: 22px;
-		padding-left: 24.5%;
-	}
-	.drop .menu {
+		padding-top: 21px;
+		position: relative;
 		display: block;
-		height: 45px;
 	}
-	.drop .menu__list {
-		width: 246px;
-		padding-left: 0;
-	}
-	.menu__top .active {
-		text-decoration: underline;
-	}
-	.drop .menu,
-	.menu__inside {
-		width: 243px;
-		list-style-type: none;
-		padding: 0;
-	}
-	.menu__top { 
-		position: relative; 
-	}
-	.menu__top:hover {
-		border: 1px solid #051116;
-		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-		background-color: rgba(54, 41, 62, 0.9);
-		border-radius: 8px 8px 0 0;
-	}
-	.menu__inside {
-		border: 1px solid #051116;
-		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-		background-color: rgba(54, 41, 62, 0.9);
-		border-radius:  0 0 8px 8px;
-		position: absolute;
-		left: -9999px;
-	}
-	.menu__inside .menu__link {
-		border-bottom: 2px solid #35273d;
-		box-shadow: inset 0 -1px 0 rgba(105, 82, 114, 0.59);
-	} 
-	.menu__top  .menu__link {
-		padding: 3px 10px 4px;
-		display: block;
-		text-align: center;
-	}
-	 .menu__link {
-		text-decoration: none;
-		color: #fff;
-	}
-	.menu__top  .menu__link:hover {
-		border-bottom: 2px solid #edbfff;
-		padding: 2px 10px 5px;
-	}
-	.menu__top:hover .menu__inside {
-		display: block;
-		left: 0;
-		text-align: center;
-	}
-	.drop .menu {
-		color: white;
-		font-family: 'league_gothicregular', Arial, sans-serif;
-		font-size: 24px;
-		font-weight: 400;
-		line-height: 42px;
-		text-transform: uppercase;
-	}
-	.menu__inside .menu__link:hover {
-		background-color: rgba(54, 41, 62, 1);
-	}
+	
 	/*/drop menu*/
 	/*slider*/
 	.slider {
@@ -95,8 +94,20 @@
 		height: 277px;
 		display: none;
 	}
+	.hide960 {
+		display: block;
+	}
+	.slider__larrow {
+		margin-left: -3px;
+		padding-top: 9px;
+	}
+	.slider__rarrow {
+		padding-top: 101px;
+		padding-right: 5px;
+	}
 	 .hiden {
-		padding-right: 32px;
+		padding-right: 0px;
+		margin-right: 5px;
 		margin-top: -10px;
 		display: block;
 	}
@@ -104,9 +115,9 @@
 		display: none;
 	}
 	.slider__text {
-		padding-left: 39px;
+		padding-left: 0;
 		padding-top: 92px;
-		width: 43%;
+		width: 47%;
 	}
 	.slider__span
 	.slider__p1 {
@@ -117,18 +128,23 @@
 		line-height: 24px;
 	}
 	.slider__span {
+		padding-left: 21px;
+		padding-top: 0;
 		color: #fefefe;
 		font-family: 'league_gothicregular', Arial, sans-serif;
 		font-size: 36px;
 	}
 	.slider__p1 {
+		padding-left: 40px;
 		line-height: 17px;
 		font-size: 18px;
+		width: 202px;
+    	padding-top: 0px;
 	}
 	.nav_dots {
 		float: initial;
 		clear: both;
-		padding-left: 7px;
+		padding-left: 2px;
 		padding-top: 0;
 		padding-right: 0;
 		width: 83px;
@@ -278,10 +294,15 @@
 		padding-top: 56px;
 	}
 	.design {
-		padding-top: 34px;
+		padding-top: 18px;
 		padding-right: 173px;
 	}
-	.lower .menu {
+	.lower {
+		float: initial;
+		padding-top: 0;
+		padding-left: 23px;
+	}
+	.lower .menu__list {
 		display: block;
 		padding-left: 22px;
 	}
