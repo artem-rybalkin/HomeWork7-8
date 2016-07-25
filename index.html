@@ -2,6 +2,10 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<!--[if lt IE 9]>
+    	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+	
 	<link rel="stylesheet" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/style_w768.css" rel="stylesheet" type="text/css">
@@ -9,10 +13,10 @@
 	<link href="css/style_w320.css" rel="stylesheet" type="text/css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
-	<!--[if lt IE 9]>
-    	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
-	<![endif]-->
 	<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script type="text/javascript" src="js/EventHelpers.js">
+	</script>
+
 	<title>Document</title>
 </head>
 <body>
@@ -24,8 +28,8 @@
 						<span class="logo__pingbull">PINGBULL</span><span class="logo__er">ER</span>
 					
 					</div>
-					<nav class="drop">
-						<ul class="menu">
+					<nav >
+						<ul class="menu drop">
 							<li class="menu__list curent">
 								<a href="" class="menu__link">HOME</a>
 							</li>
@@ -86,7 +90,6 @@
 					<li class="dots__list dot3"><a href="" class="dots__link"></a></li>
 					<li class="dots__list dot4"><a href="" class="dots__link"></a></li>
 				</ul>
-				
 			</div>
 		</div>
 			
@@ -104,7 +107,7 @@
 							<div class="about__text">
 								<span class="about__span">ABOUT UOR COMPANY</span>
 								<p class="about__p">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po&shy;suere. Pe&shy;lentesque vel lacus eget nisi convallis auctor. Nam</p>
-								<p class="about__p2">READ MORE</p>
+								<p class="about__p2"><a href="" class="about__link">READ MORE</a></p>
 							</div>
 						</div>
 						<div class="about__list2">
@@ -112,7 +115,7 @@
 							<div class="about__text">
 								<span class="about__span">ABOUT UOR COMPANY</span>
 								<p class="about__p">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po&shy;suere. Pe&shy;lentesque vel lacus eget nisi convallis auctor. Nam</p>
-								<p class="about__p2">READ MORE</p>
+								<p class="about__p2"><a href="" class="about__link">READ MORE</a></p>
 							</div>
 						</div>
 						<div class="about__list3">
@@ -120,7 +123,7 @@
 							<div class="about__text">
 								<span class="about__span">ABOUT UOR COMPANY</span>
 								<p class="about__p">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po&shy;suere. Pe&shy;lentesque vel lacus eget nisi convallis auctor. Nam</p>
-								<p class="about__p2">READ MORE</p>
+								<p class="about__p2"><a href="" class="about__link">READ MORE</a></p>
 							</div>
 						</div>
 						
@@ -147,7 +150,15 @@
 									<p class="starts__p">"Nunc turpis neque, feu&shy;giat eget eleifend et, lacinia non neque. Prae&shy;sent rhoncus ultrices po&shy;suere. Pellentesque vel lacus eget nisi conval&shy;lis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl."</p>
 								</div>
 							</div>
-							<div class="navi_starts"><img src="img/nav2.png" alt=""></div>
+							
+							<div class="navi_starts">
+								<ul class="dots">
+									<li class="dots__list dot1"><a href="" class="dots__link"></a></li>
+									<li class="dots__list dot2"><a href="" class="dots__link"></a></li>
+									<li class="dots__list dot3"><a href="" class="dots__link"></a></li>
+									<li class="dots__list dot4"><a href="" class="dots__link"></a></li>
+								</ul>
+							</div>
 						</div>
 						
 						<div class="updates">
@@ -173,8 +184,8 @@
 								</li>
 								
 							</ul>
-							<span class="updates__span2">READ MORE HERE</span>
-							<span class="updates__span2 update_hide">MORE BLOG POSTS</span>
+							<span class="updates__span2"><a href="" class="updates__link">READ MORE HERE</a></span>
+							<span class="updates__span2 update_hide"><a href="" class="updates__link">MORE BLOG POSTS</a></span>
 
 						</div>
 					</div>
@@ -261,7 +272,7 @@
 			
 		
 			<div class="wraper">
-				<nav class="footer_menu">
+				<nav>
 						<ul class="menu lower">
 							<li class="menu__list"><a href="" class="menu__link">HOME</a></li>
 							<li class="menu__list"><a href="" class="menu__link">ABOUT</a></li>

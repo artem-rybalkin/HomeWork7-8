@@ -17,6 +17,7 @@
 		height: 226px;
 	}
 	.img_slider {
+		height: 227px;
 		background: none;
 	}
 	.slider__p1 {
@@ -83,14 +84,14 @@
 		padding-left: 11px;
 	}
 	.navi_starts {
-		margin-left: 141px;
+		margin-left: 136px;
 	}
 	.img_upper {
 		height: 1209px;
 	}
 	.updates {
 		padding-left: 17px;
-		padding-top: 45px;
+		padding-top: 51px;
 	}
 	.updates__menu {
 		width: 315px;
@@ -114,7 +115,7 @@
 	}
 	.update_hide {
    		padding-top: 16px;
-		padding-right: 24px;
+		padding-right: 27px;
 	}
 	.logotips {
 		padding-top: 52px;
@@ -157,7 +158,7 @@
 		left: 29%;
 		padding-right: 0;
 	}
-	.footer_menu {
+	.lower {
 		display: none;
 	}
 }

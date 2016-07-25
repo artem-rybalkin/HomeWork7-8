@@ -8,19 +8,18 @@
 	}
 	/*drop menu*/
 	
-	.menu:hover .menu__list {
+	.drop:hover .menu__list {
 		display: inline-block;
 		float: initial;
 		width: 243px;
 		padding-left: 0;
-
 		border: 1px solid #051116;
 		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 		background-color: rgba(54, 41, 62, 0.9);
 		text-align: center;
 	}
 	
-	.drop .menu {
+	.drop {
 		padding-top: 0;
 		margin: auto auto;
 		top: 0;
@@ -82,6 +81,7 @@
 		padding-top: 21px;
 		position: relative;
 		display: block;
+		float: initial;
 	}
 	
 	/*/drop menu*/
@@ -89,6 +89,9 @@
 	.slider {
 		margin-top: 100px;
 		height: 246px;
+	}
+	.img_slider {
+		height: 244px;
 	}
 	.slider__img {
 		height: 277px;
@@ -131,7 +134,7 @@
 		padding-left: 21px;
 		padding-top: 0;
 		color: #fefefe;
-		font-family: 'league_gothicregular', Arial, sans-serif;
+		font-family: 'LeagueGothicRegular', Arial, sans-serif;
 		font-size: 36px;
 	}
 	.slider__p1 {
@@ -231,8 +234,8 @@
 		float: initial;
 	}
 	.updates {
-		padding-left: 80px;
-		padding-top: 45px;
+		padding-left: 81px;
+		padding-top: 49px;
 		float: initial;
 	}
 	.updates__span2 {
@@ -299,7 +302,7 @@
 	}
 	.lower {
 		float: initial;
-		padding-top: 0;
+		padding-top: 39px;
 		padding-left: 23px;
 	}
 	.lower .menu__list {

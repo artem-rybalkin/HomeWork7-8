@@ -12,6 +12,10 @@
 	.slider {
 		margin-top: 140px;
 	}
+	.img_slider {
+		height: 400px;
+    	margin-top: 100px;
+	}
 	.slider__larrow {
 		padding-top: 75px;
 		margin-left: -5px;
@@ -183,14 +187,11 @@
 		padding-top: 24px;
 		margin-left: 157px;
 	}
-	.menu {
+	.drop {
 		float: left;
 		padding-top: 28px;
 	}
-	.lower .menu {
-		padding-top: 0;
-		padding-left: 18px;
-	}
+	
 	.menu__list:first-child {
 		padding-left: 19px;
 	}
@@ -247,11 +248,11 @@
 		height: 202px;
 	}
 	.lower {
-		padding-top: 0;
+		padding-top: 40px;
 		padding-left: 20px;
 	}
 	.design {
-		padding-top: 53px;
+		padding-top: 93px;
 		padding-right: 24px;
 	}
 }
